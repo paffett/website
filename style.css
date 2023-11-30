@@ -63,6 +63,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+hr {
+    width: 100%;
+    border: 1px solid #444;
+    background-color: #acacac;
+}
+
 nav ul li:hover {
     background-color: #acacac;
     color: #000000;
@@ -83,12 +89,23 @@ section {
 }
 
 .flexbox {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 5px; /* 5px margin on the left and right */
-    gap: 25px;
+    display: flex;
+
 }
+
+.map iframe {
+    height: 400px;
+    width: 450px;
+    border: 0;
+}
+
+.inputBoxes {
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+/* mobile scaling */
 
 /* Styles for screens that are 600px wide or less */
 @media screen and (max-width: 600px) {

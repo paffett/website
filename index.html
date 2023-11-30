@@ -1,3 +1,7 @@
+<!-- move contact to own page as it will need php -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,8 +13,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>paffett.live</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" href="assets/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -19,11 +22,12 @@
         />
         <link rel="stylesheet" href="style.css" />
     </head>
+
     <body id="home">
         <header>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -46,24 +50,34 @@
                 from Udemy.
             </p>
         </section>
+
+        <hr>
+
         <section id="skills">
             <h2>Skills</h2>
             <!-- List skills here -->
         </section>
+
+        <hr>
         <section id="portfolio">
-            <h2>Portfolio</h2>
-            <section id="portfolio">
+
                 <h2>Portfolio</h2>
                 <div class="flexbox">
                     <div>HTML only resume</div>
                     <div>Item 2</div>
                     <div>Item 3</div>
                 </div>
-            </section>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
-            <!-- contact information goes here -->
+            
+            <div class="flexbox">
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80685.51152964492!2d-1.179130060545164!3d50.80481521728489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487442a41814f1e9%3A0x45b683ea03373b79!2sPortsmouth!5e0!3m2!1sen!2suk!4v1701295113805!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="inputBoxes"><input type="input" value=""></div>
+                <div class="inputBoxes"><input type="input" value=""></div>
+            </div>
+            
         </section>
         <footer>
             <p>Copyright © 2023 Ryan Paffett</p>
